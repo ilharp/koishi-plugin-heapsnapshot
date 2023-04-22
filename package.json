@@ -1,0 +1,49 @@
+{
+  "name": "koishi-plugin-heapsnapshot",
+  "description": "Generate heap snapshot for current instance",
+  "version": "0.0.1",
+  "author": {
+    "name": "Il Harper",
+    "email": "afanyiyu@hotmail.com",
+    "url": "https://ilharper.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/ilharp/koishi-plugin-heapsnapshot",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ilharp/koishi-plugin-heapsnapshot.git"
+  },
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "scripts": {
+    "build": "atsc -b"
+  },
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin",
+    "v8",
+    "heap",
+    "heapsnapshot"
+  ],
+  "peerDependencies": {
+    "koishi": "^4.12.6"
+  },
+  "devDependencies": {
+    "atsc": "^1.2.2",
+    "koishi": "^4.12.6",
+    "typescript": "^4.9.4"
+  },
+  "koishi": {
+    "description": {
+      "en": "Generate heap snapshot for current instance"
+    },
+    "locales": [
+      "en"
+    ]
+  }
+}
